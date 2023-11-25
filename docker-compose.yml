@@ -1,0 +1,37 @@
+# version: '3.4'
+
+# services:
+#   webapi:
+#     image: ${DOCKER_REGISTRY-}webapi
+#     build:
+#       context: .
+#       dockerfile: WebAPI/Dockerfile
+
+
+
+
+version: '3.4'
+
+services:
+  s_test_database:
+    container_name: c_test_database
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+       - 1433:1433
+    environment: 
+       - MSSQL_SA_PASSWORD=myStong_Password123#!
+       - ACCEPT_EULA=Y
+    volumes: 
+       - volume_test_database:/var/opt/mssql
+  s_test_webapi:
+    container_name: c_test_webapi
+    image: ${DOCKER_REGISTRY-}webapi
+    build:
+        context: .
+        dockerfile: WebAPI/Dockerfile
+    ports:
+      - 5189:80
+    depends_on:
+      - s_test_database
+volumes:
+  volume_test_database:

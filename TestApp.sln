@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{F7671570-8820-4FD6-A16F-2AD52C9271FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{72D368FB-E3E2-4884-8BB5-7D06E995B11C}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F14451EF-76CD-4D83-A819-70E7997DB111}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7671570-8820-4FD6-A16F-2AD52C9271FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7671570-8820-4FD6-A16F-2AD52C9271FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7671570-8820-4FD6-A16F-2AD52C9271FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7671570-8820-4FD6-A16F-2AD52C9271FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72D368FB-E3E2-4884-8BB5-7D06E995B11C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D368FB-E3E2-4884-8BB5-7D06E995B11C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D368FB-E3E2-4884-8BB5-7D06E995B11C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D368FB-E3E2-4884-8BB5-7D06E995B11C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F14451EF-76CD-4D83-A819-70E7997DB111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14451EF-76CD-4D83-A819-70E7997DB111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14451EF-76CD-4D83-A819-70E7997DB111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14451EF-76CD-4D83-A819-70E7997DB111}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {206FABC8-4344-43FD-B4A2-F409FF12BCAA}
+	EndGlobalSection
+EndGlobal
