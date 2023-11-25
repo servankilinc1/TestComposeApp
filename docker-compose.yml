@@ -23,7 +23,7 @@ services:
        - ACCEPT_EULA=Y
     volumes: 
        - volume_test_database:/var/opt/mssql
-  s_test_webapi:
+  webapi:
     container_name: c_test_webapi
     image: ${DOCKER_REGISTRY-}webapi
     build:
