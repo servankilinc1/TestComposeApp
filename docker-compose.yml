@@ -30,7 +30,7 @@ services:
         context: .
         dockerfile: WebAPI/Dockerfile
     ports:
-      - 7077:80
+      - 7000:80
     depends_on:
       - s_test_database
 volumes:
