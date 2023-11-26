@@ -43,7 +43,13 @@ services:
     container_name: c_test_database
     image: "mysql" 
     ports:
-      - 6060:3306 
+      - 6060:3306
+    environment:
+      MYSQL_HOST: mysql
+      MYSQL_USER: root
+      MYSQL_ROOT_PASSWORD: qwer._1234!ZXCV
+      MYSQL_PASSWORD: myStong_Password123#!
+      MYSQL_DB: database_mysql 
     restart: always
     volumes:
       - volume_test2_database:/etc/mysql/conf.d
@@ -58,5 +64,4 @@ services:
     depends_on:
       - s_test_database
 volumes:
-  volume_test2_database:
- 
+  volume_test2_database: 
