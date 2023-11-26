@@ -46,6 +46,7 @@ services:
       - 6060:3306
     environment:
       MYSQL_HOST: mysql 
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
       MYSQL_PASSWORD: myStong_Password123#!
       MYSQL_DB: database_mysql  
     restart: always
