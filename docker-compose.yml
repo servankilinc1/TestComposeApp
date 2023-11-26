@@ -43,12 +43,7 @@ services:
     container_name: c_test_database
     image: "mysql" 
     ports:
-      - 6060:3306
-    environment:
-      MYSQL_DATABASE: 'database_mysql' 
-      MYSQL_USER: 'root' 
-      MYSQL_PASSWORD: 'myStong_Password123#!' 
-      MYSQL_ROOT_PASSWORD: 'qwer._1234!ZXCV' 
+      - 6060:3306 
     restart: always
     volumes:
       - volume_test2_database:/etc/mysql/conf.d
