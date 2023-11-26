@@ -38,20 +38,7 @@
 
 version: '3.4'
 
-services:
-  s_test_database:
-    container_name: c_test_database
-    image: "mysql" 
-    ports:
-      - 6060:3306
-    environment:
-      MYSQL_HOST: mysql 
-      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
-      MYSQL_PASSWORD: myStong_Password123#!
-      MYSQL_DB: database_mysql  
-    restart: always
-    volumes:
-      - volume_test2_database:/etc/mysql/conf.d
+services: 
   webapi:
     container_name: c_test_webapi
     image: ${DOCKER_REGISTRY-}webapi
@@ -59,8 +46,4 @@ services:
       context: .
       dockerfile: WebAPI/Dockerfile
     ports:
-      - 7070:80
-    depends_on:
-      - s_test_database
-volumes:
-  volume_test2_database: 
+      - 7070:80  
