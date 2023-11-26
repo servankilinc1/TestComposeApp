@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tBU1YcWxgf6ffLJq6NHr7sFbREJTeSCt86TkiqAJF7khXgU26vCZPYlCYN88ZZfTp1sfLFhALT3yMuC+DiYbrA==",
+  "dgSpecHash": "AuiuEDyvOW0B/BtfQa4eJd8fn1WV+YK05zSnJnu2f55/n8mBd47AT8rXTFwXK0M8H+HUwhgme5KjPDZKpU6BFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\Data\\Data.csproj",
+  "projectFilePath": "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\TestComposeApp\\Data\\Data.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

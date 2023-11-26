@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\Data\\Data.csproj": {}
+    "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\TestComposeApp\\Data\\Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\Data\\Data.csproj": {
+    "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\TestComposeApp\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\TestComposeApp\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\TestComposeApp\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\nemo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\Data\\obj\\",
+        "outputPath": "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\TestComposeApp\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nemo\\AppData\\Roaming\\NuGet\\NuGet.Config",

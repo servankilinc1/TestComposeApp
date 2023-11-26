@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MdM50jwzmqc8vyGD1GR6gs+/CbvHNEKaLRxpn97BHKZbt0UaVVSN1H+fDzEWvDHmHr7PrnQtSP9alcV9KmluRA==",
+  "dgSpecHash": "l6Yx7l5xEqoGbW/+6RUDHkJhT1sfxpMlB/VSo0CeQYGewnjAQkLDmkzLTKSD8YLifE5CSjcZP6YGKjM3ocDJuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\TestComposeApp\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nemo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.12\\microsoft.aspnetcore.openapi.7.0.12.nupkg.sha512",
     "C:\\Users\\nemo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

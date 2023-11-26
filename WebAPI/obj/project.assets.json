@@ -579,11 +579,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\TestComposeApp\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\TestComposeApp\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\nemo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\TestComposeApp\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nemo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -600,8 +600,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\Data\\Data.csproj"
+            "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\TestComposeApp\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\nemo\\Desktop\\tt\\TestApp\\TestComposeApp\\Data\\Data.csproj"
             }
           }
         }

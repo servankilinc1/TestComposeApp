@@ -9,20 +9,49 @@
 
 
 
+# version: '3.4'
+
+# services:
+#   s_test_database:
+#     container_name: c_test_database
+#     image: mcr.microsoft.com/mssql/server:2022-latest
+#     ports:
+#        - 1433:1433
+#     environment: 
+#        - MSSQL_SA_PASSWORD=myStong_Password123#!
+#        - ACCEPT_EULA=Y
+#     volumes: 
+#        - volume_test_database:/var/opt/mssql
+#   webapi:
+#     container_name: c_test_webapi
+#     image: ${DOCKER_REGISTRY-}webapi
+#     build:
+#         context: .
+#         dockerfile: WebAPI/Dockerfile
+#     ports:
+#       - 7000:80
+#     depends_on:
+#       - s_test_database
+# volumes:
+#   volume_test_database:
+
 
 version: '3.4'
 
 services:
   s_test_database:
     container_name: c_test_database
-    image: mcr.microsoft.com/mssql/server:2022-latest
+    image: "mysql" 
     ports:
-       - 1433:1433
-    environment: 
-       - MSSQL_SA_PASSWORD=myStong_Password123#!
-       - ACCEPT_EULA=Y
-    volumes: 
-       - volume_test_database:/var/opt/mssql
+       - 6060:3306
+    environment:
+       - MYSQL_ROOT_PASSWORD:qwer._1234!ZXCV
+       - MYSQL_DATABASE:database_mysql
+       - MYSQL_USER:root
+       - MYSQL_PASSWORD:myStong_Password123#!
+    restart: always
+    volumes:
+       - volume_test2_database:/etc/mysql/conf.d
   webapi:
     container_name: c_test_webapi
     image: ${DOCKER_REGISTRY-}webapi
@@ -30,8 +59,8 @@ services:
         context: .
         dockerfile: WebAPI/Dockerfile
     ports:
-      - 7000:80
+      - 7070:80
     depends_on:
       - s_test_database
 volumes:
-  volume_test_database:
+  volume_test2_database:
