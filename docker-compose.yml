@@ -47,9 +47,10 @@ services:
     environment:
       MYSQL_HOST: mysql
       MYSQL_USER: root
-      MYSQL_ROOT_PASSWORD: qwer._1234!ZXCV
+      MYSQL_RANDOM_ROOT_PASSWORD: "yes"
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
       MYSQL_PASSWORD: myStong_Password123#!
-      MYSQL_DB: database_mysql 
+      MYSQL_DB: database_mysql  
     restart: always
     volumes:
       - volume_test2_database:/etc/mysql/conf.d
